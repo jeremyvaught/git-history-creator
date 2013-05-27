@@ -36,3 +36,7 @@ done
 #now just display how many days we ran and how many total commits
 echo "DAYS = ${DAYS}"
 echo "TOTAL = ${TOTAL}"
+
+#a smidge of cleanup
+export GIT_AUTHOR_DATE=""
+export GIT_COMMITTER_DATE=""
