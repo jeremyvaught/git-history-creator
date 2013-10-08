@@ -32,4 +32,4 @@ LICENSE
 
 [MIT license](http://mit-license.org) seems like a good idea. If you make changes and improvements, it would be awesome if you let me know so I can possibly use them.
 
-6 of 6 @ Wed Oct  9 10:46:55 2013
+1 of 6 @ Tue Oct  8 10:46:55 2013
