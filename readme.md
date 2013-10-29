@@ -19,7 +19,7 @@ Quick and dirty gettin's going...
   - I also suggest that unless you want `temp_updater.sh` in your repo, you add it to your `.gitignore` file
   - Finally, towards the end of the file, there are the git commands, currently commented out for your safety and mine. Before you uncomment, check to make sure you are going to get what you want. Do that by typing in the command `./temp_updater` and you will get a readout of each day it processes and how many commits that push would have received. Of course, it's random, so it won't be that same number when you run it again. Uncomment the `git add --all` and `git commit ...` lines, and you, my friend, are a git history revisionist.
 - Do a `git push`
-- Oh! And the changes won't show up in github until the following day. So don't freak out.
+- Oh! And the changes won't show up in github until the following day. So don't freak out. [This may not be true anymore. I just ran it again to test and it showed up right away.] However, It does seem that if you go fo a super long period of time, the newest days start dropping off. Not sure if this is a limitation on the commits per push or what.
 - And just to be sure, when you are finished, in your command-line, run `export GIT_AUTHOR_DATE=""` and `export GIT_COMMITTER_DATE=""` just to make sure those are reset back to default
 
 WARNING
@@ -31,4 +31,4 @@ LICENSE
 -------
 
 [MIT license](http://mit-license.org) seems like a good idea. If you make changes and improvements, it would be awesome if you let me know so I can possibly use them.
-
+1 of 1 @ Tue Oct 29 10:53:16 2013
