@@ -17,9 +17,10 @@ Quick and dirty gettin's going...
   - `TIMEZONEOFFSET="-0400"` This is the end of the date. If you are not sure what yours is, type `git log` and you'll see it there
   - Decide which file to update and update it. There are two places, currently it's set to `readme.md`. What happens is the script will add a line to the end of the file, something like `3 of 3 @ Mon May 27 18:44:02 2013` which is the update of how many total updates for that day, and the date. This is the change that gets submitted. That line is removed and replaced with each commit.
   - I also suggest that unless you want `temp_updater.sh` in your repo, you add it to your `.gitignore` file
-  - Finally, towards the end of the file, there are the git commands, currently commented out for your safety and mine. Before you uncomment, check to make sure you are going to get what you want. Do that by typing in the command `./temp_updater` and you will get a readout of each day it processes and how many commits that push would have received. Of course, it's random, so it won't be that same number when you run it again. Uncomment the `git add --all` and `git commit ...` lines, and you, my friend, and a git history revisionist.
+  - Finally, towards the end of the file, there are the git commands, currently commented out for your safety and mine. Before you uncomment, check to make sure you are going to get what you want. Do that by typing in the command `./temp_updater` and you will get a readout of each day it processes and how many commits that push would have received. Of course, it's random, so it won't be that same number when you run it again. Uncomment the `git add --all` and `git commit ...` lines, and you, my friend, are a git history revisionist.
+- Do a `git push`
 - Oh! And the changes won't show up in github until the following day. So don't freak out.
-- And just to be sure, in your command-line, run `export GIT_AUTHOR_DATE=""` and `export GIT_COMMITTER_DATE=""` just to make sure those are reset back to default
+- And just to be sure, when you are finished, in your command-line, run `export GIT_AUTHOR_DATE=""` and `export GIT_COMMITTER_DATE=""` just to make sure those are reset back to default
 
 WARNING
 -------
@@ -30,3 +31,5 @@ LICENSE
 -------
 
 [MIT license](http://mit-license.org) seems like a good idea. If you make changes and improvements, it would be awesome if you let me know so I can possibly use them.
+
+

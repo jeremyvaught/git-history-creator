@@ -5,7 +5,7 @@ TOTAL=0
 DAYS=0
 #COUNTER is how many days back you want to start
 DAYSOFFSET=0
-DAYSTORUN=5
+DAYSTORUN=10
 POSSIBLEUPDATESPERDAY=7
 TIMEZONEOFFSET="-0400"
 #The number here is how many days total you want to go back, keep in mind the head start that DAYSOFFSET provides
