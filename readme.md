@@ -30,4 +30,4 @@ This script changes things, and does so automatically. So, you should probably b
 LICENSE
 -------
 
-5 of 6 @ Fri Nov  1 10:40:11 2013
+6 of 6 @ Fri Nov  1 10:40:11 2013
