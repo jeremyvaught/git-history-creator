@@ -30,4 +30,6 @@ This script changes things, and does so automatically. So, you should probably b
 LICENSE
 -------
 
-6 of 6 @ Fri Nov  1 10:40:11 2013
+[MIT license](http://mit-license.org) seems like a good idea. If you make changes and improvements, it would be awesome if you let me know so I can possibly use them.
+
+
