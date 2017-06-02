@@ -29,5 +29,6 @@ This script changes things, and does so automatically. So, you should probably b
 
 LICENSE
 -------
+[MIT license](http://mit-license.org) seems like a good idea. If you make changes and improvements, it would be awesome if you let me know so I can possibly use them.
 
-2 of 2 @ Sat Jun  3 11:44:59 2017
+1 of 4 @ Fri Jun  2 11:52:44 2017
