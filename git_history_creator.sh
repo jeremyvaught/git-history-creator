@@ -31,9 +31,9 @@ while [ $COUNTER -lt $DAYSTORUN ]; do
           export GIT_COMMITTER_DATE="${MYDATE} ${TIMEZONEOFFSET}"
           #now add and commit the git. I do one big 'git push' manually after this all runs
           ##Probably commented out so as not to accidentally set this off
-          # git add --all
-          # git commit -m ":cake: ${COUNTERTWO} of ${NUMBER} @ ${MYDATE}"
-          #echo "${COUNTERTWO} of ${NUMBER} @ ${MYDATE}"
+          git add --all
+          git commit -m ":cake: ${COUNTERTWO} of ${NUMBER} @ ${MYDATE}"
+          echo "${COUNTERTWO} of ${NUMBER} @ ${MYDATE}"
           let TOTAL=TOTAL+1
      done
 done
