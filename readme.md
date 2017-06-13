@@ -12,7 +12,7 @@ Quick and dirty gettin's going...
   - `chmod +x temp_updater.sh`
 - Edit the file, paying attention to 
   - `DAYSOFFSET=10` This is how many days back you want to start from, default is to start from 10 days ago
-  - `DAYSTORUN=5` This is how manys will get updated
+  - `DAYSTORUN=5` This is how many days will get updated
   - `POSSIBLEUPDATESPERDAY=7` This is most possible per day, but the actual number is randomized from 1 to what this is set to
   - `TIMEZONEOFFSET="-0400"` This is the end of the date. If you are not sure what yours is, type `git log` and you'll see it there
   - Decide which file to update and update it. There are two places, currently it's set to `readme.md`. What happens is the script will add a line to the end of the file, something like `3 of 3 @ Mon May 27 18:44:02 2013` which is the update of how many total updates for that day, and the date. This is the change that gets submitted. That line is removed and replaced with each commit.
@@ -31,5 +31,3 @@ LICENSE
 -------
 
 [MIT license](http://mit-license.org) seems like a good idea. If you make changes and improvements, it would be awesome if you let me know so I can possibly use them.
-
-
