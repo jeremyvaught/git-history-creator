@@ -1,13 +1,16 @@
 #!/bin/bash
 
+#TESTMODE is 1 if true, 0 if false (do it live!)
+TESTMODE=0
+#COUNTER is how many days back you want to start
+DAYSOFFSET=0
+DAYSTORUN=6
+POSSIBLEUPDATESPERDAY=7
+TIMEZONEOFFSET="-0400"
+
 #TOTAL and DAYS are just counters to give a total at the end
 TOTAL=0
 DAYS=0
-#COUNTER is how many days back you want to start
-DAYSOFFSET=0
-DAYSTORUN=0
-POSSIBLEUPDATESPERDAY=7
-TIMEZONEOFFSET="-0400"
 #The number here is how many days total you want to go back, keep in mind the head start that DAYSOFFSET provides
 COUNTER=$DAYSOFFSET
 while [ $COUNTER -le $DAYSTORUN ]; do
@@ -31,8 +34,11 @@ while [ $COUNTER -le $DAYSTORUN ]; do
           export GIT_COMMITTER_DATE="${MYDATE} ${TIMEZONEOFFSET}"
           #now add and commit the git. I do one big 'git push' manually after this all runs
           ##Probably commented out so as not to accidentally set this off
-          #git add --all
-          #git commit -m ":cake: ${COUNTERTWO} of ${NUMBER} @ ${MYDATE}"
+          if [ $TESTMODE -eq 0 ]
+          then
+            git add --all
+            git commit -m ":cake: ${COUNTERTWO} of ${NUMBER} @ ${MYDATE}"
+          fi
           echo "${COUNTERTWO} of ${NUMBER} @ ${MYDATE}"
           let TOTAL=TOTAL+1
      done
