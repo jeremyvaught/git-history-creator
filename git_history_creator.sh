@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #TESTMODE is 1 if true, 0 if false (do it live!)
-TESTMODE=0
+TESTMODE=1
 #COUNTER is how many days back you want to start
 DAYSOFFSET=0
 DAYSTORUN=0
