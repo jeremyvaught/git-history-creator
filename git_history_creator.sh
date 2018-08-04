@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #TESTMODE is 1 if true, 0 if false (do it live!)
-TESTMODE=1
+TESTMODE=0
 #COUNTER is how many days back you want to start
 DAYSOFFSET=0
-DAYSTORUN=0
+DAYSTORUN=182
 POSSIBLEUPDATESPERDAY=3
 TIMEZONEOFFSET="-0400"
 
