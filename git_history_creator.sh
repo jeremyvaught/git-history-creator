@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #TESTMODE is 1 if true, 0 if false (do it live!)
-TESTMODE=0
+TESTMODE=1
 #COUNTER is how many days back you want to start
 DAYSOFFSET=0
-DAYSTORUN=365
-POSSIBLEUPDATESPERDAY=7
+DAYSTORUN=0
+POSSIBLEUPDATESPERDAY=2
 TIMEZONEOFFSET="-0400"
 
 #TOTAL and DAYS are just counters to give a total at the end

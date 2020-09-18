@@ -9,7 +9,7 @@ Quick and dirty gettin's going...
   - example `touch temp_updater.sh`
 - Get the contents of the bash script and place them in `temp_updater.sh`
 - Make the file executable
-  - `chmod +x temp_updater.sh`
+  - `chmod +x git-history-creator.sh`
 - Edit the file, paying attention to 
   - `DAYSOFFSET=10` This is how many days back you want to start from, default is to start from 10 days ago
   - `DAYSTORUN=5` This is how many days will get updated
@@ -30,4 +30,5 @@ This script changes things, and does so automatically. So, you should probably b
 LICENSE
 -------
 [MIT license](http://mit-license.org) seems like a good idea. If you make changes and improvements, it would be awesome if you let me know so I can possibly use them.
-3 of 3 @ Wed Sep 18 04:16:07 2019
+
+
